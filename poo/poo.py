@@ -43,4 +43,4 @@ pessoa2 = Pessoa(nome="Rodrigo", idade=42)
 print('Referência2:', pessoa2)
 print(pessoa2.saudacao())
 
-# Pilares do POO: Encapsulamento, Herança, Polimorfismo e Abstração 
+# Pilares do POO: Encapsulamento, Herança, Polimorfismo e Abstração
