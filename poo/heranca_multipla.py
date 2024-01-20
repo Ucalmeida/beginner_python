@@ -27,6 +27,12 @@ foca = Mamifero(nome='Furlipa')
 print(foca.amamentar())
 pardal = Ave(nome='Pardal')
 print(pardal.voar())
-batman = Morcego(nome='Zefinho')
-print(batman.emitir_som())
+morcego = Morcego(nome='Batman')
 
+# Acessando métodos da classe base 'Animal'
+print('Nome de morcego:', morcego.nome)
+print(morcego.emitir_som())
+
+# Acessando métodos da classe 'Mamífero' e 'Ave'
+print(f'{morcego.nome} {morcego.amamentar()}')
+print(f'{morcego.nome} {morcego.voar()}')
