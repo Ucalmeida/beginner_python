@@ -56,7 +56,7 @@ class ContaBancaria:
         if 0 < valor <= self.__saldo:
             self.__saldo -= valor
             print(f'Saldo da Conta Bancária: {self.consultar_saldo()}')
-        elif (0 >= valor):
+        elif 0 >= valor:
             print(f'Valor precisa ser maior que o fornecido. Valor: {valor}')
         else:
             print(f'Saldo menor que o valor fornecido. Saldo: {self.__saldo} menor que {valor}')
