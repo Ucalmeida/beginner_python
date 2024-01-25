@@ -27,7 +27,7 @@ class MeuDecoradorDeClasse:
     def __call__(self) -> Any:
         print('Antes da função ser chamada (decorador de classe)')
         self.func()
-        print('Depois da faunção ser chamada (decorador de classe)')
+        print('Depois da função ser chamada (decorador de classe)')
 
 
 @MeuDecoradorDeClasse
